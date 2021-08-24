@@ -5,5 +5,9 @@
 
 *{
     font-family: Sapo;
+    color: red !important;
 }
 
+.teste {
+    background-image: url();
+}
