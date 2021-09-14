@@ -1,0 +1,17 @@
+/* titulo font-family: 'Press Start 2P', cursive;  ------fonte que a camille pegou */
+
+a{
+    text-decoration:none;
+}
+.btn-success {
+    background-color: #2FC18C;
+}
+.verde {
+    background-color: #2FC18C;
+}
+body{
+    background-color: #eeee;
+}
+.escuro {
+    background-color: rgba(65, 62, 62, 0.349) !important;
+}
