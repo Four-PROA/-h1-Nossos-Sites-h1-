@@ -31,6 +31,10 @@
         width: 200px;
         height: 200px;
     }
-   button {
+   .btn {
        background-color: #FF1616;
+    }
+
+    button:hover {
+        background-color:#fd0202 ;
     }
