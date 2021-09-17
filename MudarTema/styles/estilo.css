@@ -15,3 +15,7 @@ body{
 .escuro {
     background-color: rgba(65, 62, 62, 0.349) !important;
 }
+
+.carousel-item img{
+    height: 349px;
+}

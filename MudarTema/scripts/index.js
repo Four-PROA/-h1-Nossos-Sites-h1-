@@ -18,6 +18,9 @@ function tema() {
         $(".carro").toggleClass("text-white");
         $(".games").toggleClass("bg-ligth");
         $(".games").toggleClass("bg-secodary");
-        
+
+
+        $(".footer").removeClass("bg-light");
+        $(".footer").addClass("bg-dark");
         
 }
