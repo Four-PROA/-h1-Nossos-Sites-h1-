@@ -20,7 +20,7 @@ function tema() {
         $(".games").toggleClass("bg-secodary");
 
 
-        $(".footer").removeClass("bg-light");
-        $(".footer").addClass("bg-dark");
+        $(".footer").toggleClass("bg-light");
+        $(".footer").toggleClass("bg-dark");
         
 }
