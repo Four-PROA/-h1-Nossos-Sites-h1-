@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Roboto&display=swap');
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background: #5CE1E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .box {
+    width: 700px;
+    height: 400px;
+    background: #eeee;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.521);
+    animation: fadein 2s;
+    animation-direction: alternate;
+    }
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+    body {
+    margin: 0px;
+    }
+    h1 {
+        font-family: 'Press Start 2P', cursive;
+        box-shadow: .6em 0 0 #ffff;
+        margin: 2rem 1rem;
+        width: 18ch;
+        overflow: hidden;
+        color: #FFF;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+    }
+    span {
+        color: #FF1616;
+    }
+    img {
+        align-content: center;
+        width: 200px;
+        height: 200px;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .guerra {
+        background-image: url(../public/guerra.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
