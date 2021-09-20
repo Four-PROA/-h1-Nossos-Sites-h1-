@@ -48,8 +48,21 @@
         height: 80px;
     }
     .guerra {
-        background-image: url(../public/guerra.jpeg);
-        background-size: contain;
-        background-repeat: no-repeat;
+        max-width: 60px;
+        position: relative;
+        top: 80px;
+        left: 70px;
+        right: 100px;
+    }
+    .botão1 {
+        width:120px;
+        color: #fff; 
+        background: #5CE1E6;
+        border: 1px solid #555;
+        border-radius: 5px;
+        text-align: center;
+        top: 20px;
+        left: 45px;
+        position: relative;
     }
 
