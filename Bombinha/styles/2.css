@@ -25,3 +25,8 @@ button {
     font-family: 'Press Start 2P';
     float: right;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
