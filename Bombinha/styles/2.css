@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.bg-historia {
+    background-image: url(../public/fundo2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 8%;
+    padding-top: 10.2%;
+}
+
+h1, p {
+    font-family: 'Open Sans', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+h1 {
+    
+}
+p {
+    
+    font-size: 22.9px;
+}
+
+button {
+    font-family: 'Press Start 2P';
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

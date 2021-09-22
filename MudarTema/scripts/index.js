@@ -1,15 +1,15 @@
 
 function tema() {
         
-        $(".cabeca").toggleClass("bg-light");
-        $(".cabeca").toggleClass("navbar-light");
-        $(".cabeca").toggleClass("bg-dark");
-        $(".cabeca").toggleClass("navbar-dark"); 
-        $(".pe").toggleClass("bg-secondary");
+        $(".cabeca").toggleClass("bg-light bg-dark"); 
+        $(".cabeca").toggleClass("navbar-light navbar-dark");
+        //$(".cabeca").toggleClass("bg-dark");
+        //$(".cabeca").toggleClass("navbar-dark"); 
+        $(".pe").toggleClass("bg-secondary bg-dark");
         $(".pe").toggleClass("text-light");
-        $(".pe").toggleClass("bg-dark");
-        $("body").toggleClass("bg-light");
-        $("body").toggleClass("bg-dark");
+        //$(".pe").toggleClass("bg-dark");
+        $("body").toggleClass("bg-light bg-dark");
+        //$("body").toggleClass("bg-dark");
         $(".inici").toggleClass("bg-secondary");
         $(".inici").toggleClass("bg-light");
         $(".cont").toggleClass("text-white");

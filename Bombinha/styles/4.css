@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.bg-fios {
+    background-color: rgba(46, 42, 42, 0.3);
+    background-image: url(../public/fundo4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 8%;
+    padding-top: 10.2%;
+}
+
+h1, p {
+    font-family: 'Open Sans', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+h1 {
+    font-size: 56px;
+}
+p {
+    
+    font-size: 38px;
+}
+
+.botoes {
+    padding: 3px;
+    width: 200px;
+    
+    
+}
+.botoes-fios {
+    padding: 10%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0;
+    
+}
