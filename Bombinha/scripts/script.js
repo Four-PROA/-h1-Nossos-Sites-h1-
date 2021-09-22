@@ -115,8 +115,11 @@ document.getElementById('startTimer').addEventListener
         }
         let h = formatTime(hour) < 10 ? "" + formatTime(hour) : formatTime(hour);
         let m = formatTime(minute) < 10 ? "" + formatTime(minute) : formatTime(minute);
+        document.getElementById('startTimer').style.display = "none"
     
         timerRef.innerHTML = `${h} : ${m}` 
+
+
     }
 });
 
