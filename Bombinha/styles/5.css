@@ -7,8 +7,7 @@
     background-image: url(../public/bg_5.gif);
     min-height: 100vh;
     background-repeat: no-repeat;
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Open Sans', sans-serif;  
 }
 .content{
     max-width: 800px;
@@ -16,7 +15,6 @@
     margin: 50px auto;
     align-items: center;
 }
-
 h1, p {
     color: antiquewhite;
     text-align: center;
@@ -35,9 +33,6 @@ p {
     display: flex;
     justify-content: space-between;
 }
-
-
-
 .botoes {
     width: 200px;
     vertical-align: baseline;
