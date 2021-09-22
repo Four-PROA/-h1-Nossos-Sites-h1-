@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.bg-morreu {
+    background-color: rgba(46, 42, 42, 0.3);
+    background-image: url(../public/bg_5.gif);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.content{
+    max-width: 800px;
+    min-height: 90vh;
+    margin: 50px auto;
+    align-items: center;
+}
+
+h1, p {
+    color: antiquewhite;
+    text-align: center;
+}
+h1 {
+    font-size: 150px;
+    font-family: 'Creepster', cursive;
+}
+p {
+    font-size: 38px;
+}
+.titulo{
+    margin-bottom: 350px;
+}
+.box_botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.botoes {
+    width: 200px;
+    vertical-align: baseline;
+    padding-top: 20%;
+}
