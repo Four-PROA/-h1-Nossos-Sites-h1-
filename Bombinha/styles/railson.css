@@ -1,37 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 .bg-salvou {
     background-color: rgba(46, 42, 42, 0.3);
-    background-image: url(../public/13.jpg)
-    background-size: 100%;
+    background-image: url(../public/13.jpg);
+    min-height: 100vh;
     background-repeat: no-repeat;
-    padding: 8%;
-    padding-top: 10.2%;
+    font-family: 'Open Sans', sans-serif;  
 }
-
+.content{
+    max-width: 800px;
+    min-height: 90vh;
+    margin: 50px auto;
+    align-items: center;
+}
 h1, p {
-    font-family: 'Open Sans', sans-serif;
     color: antiquewhite;
     text-align: center;
 }
 h1 {
     font-size: 150px;
+    font-family: 'Open Sans' cursive;
 }
 p {
-    
     font-size: 38px;
 }
-
-.botao-chega {
-    float: right;
+.titulo{
+    margin-bottom: 350px;
 }
-
-.botao-voltar {
-    float: left;
+.box_botoes{
+    display: flex;
+    justify-content: space-between;
 }
-
 .botoes {
     width: 200px;
     vertical-align: baseline;
