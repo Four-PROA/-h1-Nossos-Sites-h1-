@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 
-.bg-morreu {
+.bg-salvou {
     background-color: rgba(46, 42, 42, 0.3);
-    background-image: url(../public/gif5.gif);
+    background-image: url(../public/13.jpg)
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 8%;
@@ -24,11 +24,11 @@ p {
     font-size: 38px;
 }
 
-.botao-voltar {
+.botao-chega {
     float: right;
 }
 
-.botao-desisto {
+.botao-voltar {
     float: left;
 }
 
