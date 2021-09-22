@@ -106,16 +106,25 @@ let int;
 document.getElementById('startTimer').addEventListener
 ('click', ()=> {
     int = setInterval(displayTimer,10);
+    
     function displayTimer() {
         if(formatTime(minute) == 59){
-            formatTime(minute) = 0;
-            formatTime(hour)++; }
+            formatTime(minute) = 00;
+            formatTime(hour)--; 
             if(formatTime(hour) > 05){
-                formatTime(hour) = 0;
+                formatTime(hour) = 00;
+                formatTime(minute)--;
         }
-        let h = formatTime(hour) < 10 ? "" + formatTime(hour) : formatTime(hour);
-        let m = formatTime(minute) < 10 ? "" + formatTime(minute) : formatTime(minute);
+    }
+
+        let h = formatTime(hour) <= 05 ? "" + formatTime(hour) : formatTime(hour);
+        let m = formatTime(minute) <= 59 ? "" + formatTime(minute) : formatTime(minute);
+
         document.getElementById('startTimer').style.display = "none"
+
+        document.getElementById('vermelho').style.display = "inline-block"
+        document.getElementById('preto').style.display = "inline-block"
+        document.getElementById('branco').style.display = "inline-block"
     
         timerRef.innerHTML = `${h} : ${m}` 
 
@@ -125,21 +134,36 @@ document.getElementById('startTimer').addEventListener
 
 //Fios aleatórios
 
-const fios = document.querySelector(".fios")
+const FioVermelho = document.querySelector("#vermelho")
+const FioBranco = document.querySelector("#branco")
+const FioPreto = document.querySelector("#preto")
 
-    const random = (min, max) => Math.random() * (max - min) + min
+    function Corte() {
+        const random = (min, max) => Math.random() * (max - min) + min
 
     const branco = Math.floor(random(1, 10))
     const preto = Math.floor(random(1, 10))
     const vermelho = Math.floor(random(1, 10))
 
-    document.getElementsByClassName('fios').addEventListener
-('click', ()=> {  
-    if(branco == 2 || preto == 2 || vermelho == 2) {
-        window. location. href = "./sucesso"
-} 
-    else {
-        window. location. href ="./erro"
-    }});
+        if(vermelho == 1 && vermelho <= 5 ) {
+            window.location.assign("../pages/6.html")
+        }
+        else if (vermelho > 5){
+         window.location.assign("../pages/5.html")
+     }
+                else if(preto == 1 && preto <= 5 ) {
+                    window.location.assign("../pages/6.html")
+                }
+                else if (preto > 5) {
+                window.location.assign("../pages/5.html")
+            }
+                        else if(branco == 1 && branco <= 5 ) {
+                            window.location.assign("../pages/6.html")
+                        }
+                        else if (branco > 5) {
+                        window.location.assign("../pages/5.html")
+                    }
+    }   
+
 
 

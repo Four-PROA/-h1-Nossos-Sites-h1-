@@ -34,15 +34,17 @@
                    <div class="min-down"></div>
                </div>
        </div>
-       <div class="buttons">
-           <button id="startTimer">Começar</button></div>
+          <div class="buttons">
+            <button id="startTimer">Começar</button>
+          </div>
+
            <script src="../scripts/script.js"></script>
 
-          <button type="button" class="btn btn-danger botoes">Fio Vermelho</button>
-          <button type="button" class="btn btn-light botoes">Fio Branco</button>
+          <button id="vermelho" type="button" class="btn btn-danger botoes" style="display: none;" onclick="Corte()">Fio Vermelho</button>
+          <button id="branco" type="button" class="btn btn-light botoes" style="display: none;" onclick="Corte()">Fio Branco</button>
      </div>
      <div class="botoes-fios align-itens-end">
-          <button type="button" class="btn btn-dark botoes botao-preto">Fio Preto</button>
+          <button id="preto" type="button" class="btn btn-dark botoes botao-preto" style="display: none;" onclick="Corte()">Fio Preto</button>
      </div>
 </body>
 </html>
