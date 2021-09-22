@@ -213,7 +213,9 @@ body {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+/* .estilu {
+    position: absolute;
+    z-index: -1 ;
+    background-color: black;
 
-.fios {
-    display: none;
-} 
+} */
