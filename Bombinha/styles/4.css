@@ -82,7 +82,7 @@ h1 span {
 	max-width: 200px;
 	margin: 0 auto;
 	padding: 25px 15px;
-    margin-left: 370px;
+    margin-left: 330px;
 
 	background-color: #F3F3F3;
 	border-radius: 8px;
@@ -213,7 +213,9 @@ body {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+/* .estilu {
+    position: absolute;
+    z-index: -1 ;
+    background-color: black;
 
-.fios {
-    display: none;
-} 
+} */
