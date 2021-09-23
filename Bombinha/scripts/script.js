@@ -130,11 +130,24 @@ document.getElementById('startTimer').addEventListener
 			seconds = seconds < 10 ? "0" + seconds : seconds;
 	
 			display.textContent = minutes + ":" + seconds;
-	
+
+            
 			if (--timer < 0) {
-				timer = duration;
+                timer = duration;
 				window.location.assign("../pages/5.html")
 			}
+            if (timer <= 10) {
+                document.getElementById('time').style.color="red"
+            }
+            if (timer == 48) {
+               alert("Talvez o fio vermelho tenha uma maior chance de ser o certo!")
+            }
+            if (timer == 28) {
+                alert("O Branco parece ser legal também")
+             }
+             if (timer == 18) {
+                alert("Você quer morrer?!")
+             }
 		}, 1000);
 	}
 	
