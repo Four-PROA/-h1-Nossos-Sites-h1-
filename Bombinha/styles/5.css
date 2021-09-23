@@ -19,7 +19,7 @@ h1, p {
     color: antiquewhite;
     text-align: center;
 }
-h1 {
+#tituloh1 {
     font-size: 150px;
     font-family: 'Creepster', cursive;
 }
@@ -27,7 +27,7 @@ p {
     font-size: 38px;
 }
 .titulo{
-    margin-bottom: 350px;
+    margin-bottom: 200px;
 }
 .box_botoes{
     display: flex;
