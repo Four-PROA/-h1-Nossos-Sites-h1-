@@ -136,7 +136,7 @@ document.getElementById('startTimer').addEventListener
                 timer = duration;
 				window.location.assign("../pages/5.html")
 			}
-            if (timer <= 10) {
+            if (timer <= 9) {
                 document.getElementById('time').style.color="red"
             }
             if (timer == 48) {
