@@ -180,9 +180,9 @@ const FioPreto = document.querySelector("#preto")
     function Corte() {
         const random = (min, max) => Math.random() * (max - min) + min
 
-    const branco = Math.floor(random(1, 10))
-    const preto = Math.floor(random(1, 10))
-    const vermelho = Math.floor(random(1, 10))
+    const branco    = Math.floor(random(1, 10))
+    const preto     = Math.floor(random(1, 10))
+    const vermelho  = Math.floor(random(1, 10))
 
         if(vermelho == 1 && vermelho <= 5 ) {
             window.location.assign("../pages/6.html")
